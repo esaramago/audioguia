@@ -1,0 +1,6 @@
+﻿:root {
+    --main-color: #00DBAF;
+
+    --gap: 1.6rem;
+    --gap-sm: calc(var(--gap)/2);
+}

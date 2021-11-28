@@ -1,0 +1,8 @@
+﻿.c-header {
+    height: 6rem;
+    background-color: var(--main-color);
+    color: #FFF;
+    fill: #FFF;
+    display: flex;
+    gap: var(--gap);
+}
