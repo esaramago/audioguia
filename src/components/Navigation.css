@@ -1,9 +1,12 @@
 ﻿.c-navigation {
-    display: flex;
-    padding: 0;
-    margin: 0;
     height: 6rem;
     background-color: var(--main-color);
+}
+.c-navigation__list {
+    display: flex;
+    max-width: 60rem;
+    height: 100%;
+    margin: auto;
     font-size: 1.8rem;
     font-weight: 500;
     text-align: center;

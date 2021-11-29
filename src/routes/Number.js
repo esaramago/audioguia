@@ -1,14 +1,14 @@
 ﻿import Page from '@components/Page';
 
-function Map() {
+function Number() {
     return (
         <Page content={
             <div className="o-content">
-                <h1>Mapa</h1>
-                <p> d dcsd csdcsdcsdc</p>
+                <h1>Number</h1>
+                <p> d dcsd csdc dcsdcsd csdc</p>
             </div>
-        }/>
+        } />
     )
 }
 
-export default Map;
+export default Number;

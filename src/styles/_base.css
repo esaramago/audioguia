@@ -2,17 +2,34 @@
     font-size: 62.5%;
 }
 body {
-    margin: 0;
     font-family: 'Raleway', 'Segoe UI', sans-serif;
     font-size: 62.5%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 1.4rem;
+    line-height: 1.4;
+    color: #444;
 }
 html,
 body,
 #root {
     height: 100%;
+}
+body,
+p,
+ul {
+    margin: 0;
+}
+ul,
+button {
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+button {
+    border: none;
+    background: none;
 }
 
 code {

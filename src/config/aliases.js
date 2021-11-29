@@ -3,6 +3,7 @@
     '@styles': `${prefix}/styles`,
     '@routes': `${prefix}/routes`,
     '@images': `${prefix}/images`,
+    '@helpers': `${prefix}/helpers`,
 });
 
 module.exports = aliases;

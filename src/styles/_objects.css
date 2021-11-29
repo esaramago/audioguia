@@ -1,1 +1,12 @@
-﻿
+﻿.o-content {
+    max-width: 50rem;
+    padding: var(--gap);
+    margin: auto;
+}
+
+.o-content > * + * {
+    margin-top: var(--gap);
+}
+.o-stack > * + * {
+    margin-top: var(--gap-sm);
+}

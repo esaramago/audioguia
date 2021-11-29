@@ -3,10 +3,10 @@ import './Navigation.css';
 
 function Navigation() {
     return (
-        <nav>
-            <ul className="c-navigation">
+        <nav className="c-navigation">
+            <ul className="c-navigation__list">
                 <li className="c-navigation__item">
-                    <NavLink className="c-navigation__link" exact to="/">Info</NavLink>
+                    <NavLink className="c-navigation__link" to="/">Info</NavLink>
                 </li>
                 <li className="c-navigation__item">
                     <NavLink className="c-navigation__link" to="/guide">Guia</NavLink>
