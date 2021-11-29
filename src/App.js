@@ -2,7 +2,7 @@
 import Info from './routes/Info';
 import Map from './routes/Map';
 import Guide from './routes/Guide';
-import Number from './routes/Number';
+import Audio from './routes/Audio';
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
                 <Route path="/" element={<Info />} />
                 <Route path="/map" element={<Map />} />
                 <Route path="/guide" element={<Guide />} />
-                <Route path="/guide/:audio" element={<Number />} />
+                <Route path="/guide/:audio" element={<Audio />} />
             </Routes>
         </Router>
     );
