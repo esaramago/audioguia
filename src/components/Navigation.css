@@ -1,0 +1,35 @@
+﻿.c-navigation {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 6rem;
+    background-color: var(--main-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+.c-navigation__item {
+    flex-grow: 1;
+    list-style: none;
+}
+.c-navigation__link {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    padding-top: 1.8rem;
+    color: #FFF;
+    text-decoration: none;
+}
+.c-navigation__link::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: .2rem;
+    left: 0;
+    display: block;
+    height: .4rem;
+}
+.c-navigation__link.active::after {
+    background-color: #FFF;
+}

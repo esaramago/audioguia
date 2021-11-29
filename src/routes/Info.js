@@ -1,12 +1,15 @@
-﻿import Header from '@components/Header';
+﻿import Page from '@components/Page';
+import Hero from '@components/Hero';
 
 function Info() {
     return (
-        <div>
-            <Header></Header>
-            <h1>Info</h1>
-            <p>adcdscsdcsdcsdcsd c</p>
-        </div>
+        <Page content={
+            <div>
+                <Hero />
+                <h1>Info</h1>
+                <p> dsdcsd sdcsdcsdcdc</p>
+            </div>
+        }/>
     )
 }
 

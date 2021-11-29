@@ -1,13 +1,11 @@
 ﻿import './Header.css';
+import logo from '@images/logo.svg';
 
-function App() {
+export default () => {
     return (
         <header className="c-header">
-            <img src="" className="App-logo" alt="logo" />
-            <p>Edit <code>src/App.js</code> and save to reload.</p>
-            <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a>
+            <img src={logo} className="c-header__logo" alt="logo" />
+            <h1 className="c-header__title">Jardim dos patos</h1>
         </header>
     );
 }
-
-export default App;

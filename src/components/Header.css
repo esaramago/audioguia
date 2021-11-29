@@ -1,8 +1,19 @@
 ﻿.c-header {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    box-sizing: border-box;
     height: 6rem;
+    padding: var(--gap);
     background-color: var(--main-color);
     color: #FFF;
     fill: #FFF;
-    display: flex;
-    gap: var(--gap);
+}
+.c-header__logo {
+    height: 100%;
+}
+.c-header__title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
 }

@@ -1,14 +1,14 @@
 ﻿import Page from '@components/Page';
 
-function Map() {
+function Guide() {
     return (
         <Page content={
             <div>
-                <h1>Mapa</h1>
-                <p> d dcsd csdcsdcsdc</p>
+                <h1>Guide</h1>
+                <p>çoukjpyu vhf kcjgrc hw hxgq</p>
             </div>
         }/>
     )
 }
 
-export default Map;
+export default Guide;
